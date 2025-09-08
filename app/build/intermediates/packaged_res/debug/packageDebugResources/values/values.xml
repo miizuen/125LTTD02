@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BaiTapTuan2</string>
+    <style name="Base.Theme.BaiTapTuan2" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BaiTapTuan2" parent="Base.Theme.BaiTapTuan2"/>
+</resources>
