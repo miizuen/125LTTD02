@@ -8,9 +8,33 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CHƯƠNG TRÌNH WEEK 5 CỦA GNOURT!"
+        android:textStyle="bold"
+        android:textSize="20sp"
         android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnScreen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/title"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#9A62F0"
+        android:text="Màn hình 1" />
+
+    <Button
+        android:id="@+id/btnScreen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#3BC4FD"
+        android:textColor="@color/black"
+        android:text="Màn hình 2" />
 
 </RelativeLayout>
