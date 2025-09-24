@@ -8,6 +8,11 @@
     android:background="@drawable/gradient_bg_screen_a"
     tools:context=".ScreenA">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewScreenA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <TextView
         android:id="@+id/textView"
         android:textSize="20sp"
